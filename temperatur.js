@@ -3,5 +3,9 @@ export const temperatur = {
 
     toFahrenheit() {
         return this.temperaturBase * 9 / 5 + 32;
+    },
+    toKelvin() {
+        return this.temperaturBase + 273.15;
     }
+        
 };
