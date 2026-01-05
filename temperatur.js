@@ -6,6 +6,9 @@ export const temperatur = {
     },
     toKelvin() {
         return this.temperaturBase + 273.15;
+    },
+    toReamur() {
+        return this.temperaturBase * 4 / 5;
     }
         
 };
